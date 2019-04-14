@@ -18,9 +18,11 @@ const X = 3; // Konstante
 ```
 
 ## Datentypen
-```js
-let s = "hallo"
-```
+
+*[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) - 32 Bits double precision floating number, keine ganze Zahl!
+*[String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) - Zeichenkette
+*[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) - Wahrheitswert: true, false
+
 
 ## Debugging
 ```js
