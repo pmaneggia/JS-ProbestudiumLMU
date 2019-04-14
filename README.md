@@ -19,7 +19,7 @@ const X = 3; // Konstante
 
 ## Datentypen
 
-Die wichtigste Datentypen sind:
+Die wichtigsten Datentypen sind:
 
 * [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) - 64-Bits double precision floating number, keine ganze Zahl!
 * [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
@@ -68,7 +68,14 @@ b && c; // und
 b || c; // oder
 
 //Objekt
-let o = {l: 3, r: 5, f: function(x) {return this.l <= x && x <= this.r;}};
+let o = {
+   l: 3, 
+   r: 5, 
+   f: function(x) {
+      return this.l <= x && x <= this.r;
+   }
+};
+
 o.l; // -> 3
 o.f(4.6); // -> true 
 
