@@ -111,5 +111,47 @@ summe = (x, y) => {
 ```js
 console.log("Hallo Welt");
 ```
-oder in Browser-Debugger
+oder im Browser-Debugger
+
+## Fallunterscheidung
+```js
+if (x < n) {
+  return 'zu klein';
+} else if (x > n) {
+  return 'zu groß';
+} else {
+  return 'gewonnen!';
+}
+```
+
+## Schleifen
+```js
+// Quadratzahlen von 0 bis 81 ausgeben
+for (let i = 0; i < 10; i++) {
+   console.log(i*i); 
+} 
+
+// jedes Element in einem Array oder String ausgeben auch mit
+for (let x of [2, 3, 5, 7]) {
+   console.log(x);
+}   
+
+for (let x of 'Hallo') {
+   console.log(x);
+}   
+
+// Gerade Zahlen ausgeben
+let x = 0;
+while(x < 100) {
+   console.log(x);
+   x = x + 2; 
+}
+```
+
+## Ternary Operator
+```js
+(alter >= 16) ? "Bier" : "Saft";
+```
+
+
 
