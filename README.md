@@ -1,4 +1,5 @@
 # JavaScript Übersicht 
+s. https://pmaneggia.github.io/JS-ProbestudiumLMU/
 
 Syntax ähnlich wie Java und C, objektorientiert, funktional, prototypische Vererbung, dynamisch typisiert.
 
