@@ -80,7 +80,7 @@ obst.length; // -> 3;
 let mix = [5.3, 'Tokyo', false, [7,6,5]];
 //Viele interessante Methoden: includes(x), indexOf(x), join(), map(), pop(), push(), ...
 
-//Function: s. nächste Anschnitt
+//Function: s. nächste Abschnitt
 ```
 
 ## Funktionen
@@ -92,7 +92,9 @@ Die Syntax für die Definition einer Funktion ist:
 function summe(x, y) {
  return x + y;
 }
+```
 // oder
+```js
 summe = (x, y) => {
  return x + y;
 }
@@ -102,4 +104,5 @@ summe = (x, y) => {
 ```js
 console.log("Hallo Welt");
 ```
+oder in Browser-Debugger
 
